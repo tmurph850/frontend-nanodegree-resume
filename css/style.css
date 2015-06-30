@@ -15,7 +15,7 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #000;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #999;
   line-height: 29px;
   padding: 10px;
 }
@@ -68,35 +68,37 @@ h2, h3, h4, h5 {
 
 p {
   font-size: 14px;
-  color: #333333;
+  color: #333;
   line-height: 21px;
 }
 
 a {
-  color: #1199C3;
+  color: #4b0082;
   text-decoration: none;
   margin-top: 10px;
   display: block;
+  font-style: bold;
 }
 
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #000;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #4b0082;
   display: none;
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #000;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #4b0082;
+  font-style: bold;
 }
 
 .white-text {
@@ -121,11 +123,22 @@ a {
 
 .flex-box {
   display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
+  display: box;
+  flex-direction: wrap;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+
+}
+
+.flex-column {
+  display: -webkit-flex;
+  display: box;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+
 }
 
 .center-content {
@@ -211,5 +224,10 @@ span {
   #skillsH3,
   .biopic {
     display: block;
+    text-align: left;
   }
+}
+
+.pjectImage {
+  max-width: 50%;
 }
