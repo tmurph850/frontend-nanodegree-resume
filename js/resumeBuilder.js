@@ -130,6 +130,18 @@ var education = {
   "school": "Udacity",
   "dates": 2015,
   "url": "https://www.udacity.com/course/ud245"
+ },
+ {
+  "title": "Object-Oriented JavaScript",
+  "school": "Udacity",
+  "dates": 2015,
+  "url": "https://www.udacity.com/course/ud015"
+ },
+ {
+  "title": "Browser Rendering Optimization",
+  "school": "Udacity",
+  "dates": 2015,
+  "url": "https://www.udacity.com/course/ud860"
  }
  ]
 };
