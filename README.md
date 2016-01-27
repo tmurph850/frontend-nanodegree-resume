@@ -1,4 +1,16 @@
+# Description
 
 This project was a great introduction to jQuery and its powerful ability to easily manipulate the DOM.
 
-Working link here -> http://tmurph850.github.io/frontend-nanodegree-resume/
+## Installing and running
+
+You can clone this repository with the link provided above or download
+it with the Download ZIP button!
+
+Alternatively here is a live [link] (http://tmurph850.github.io/frontend-nanodegree-resume/)
+
+## Resources
+
+* [jQuery](http://jquery.com/)
+
+
